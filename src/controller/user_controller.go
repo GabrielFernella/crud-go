@@ -5,7 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func NewUserControllerInterdace(
+func NewUserControllerInterface(
 	serviceInterface service.UserDomainService,
 ) UserControllerInterface {
 	return &userControllerInterface{

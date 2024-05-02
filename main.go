@@ -20,7 +20,7 @@ func main() {
 
 	// Init dependencies
 	service := service.NewUserDomainService()
-	userController := controller.NewUserControllerInterdace(service)
+	userController := controller.NewUserControllerInterface(service)
 
 	router := gin.Default()
 
