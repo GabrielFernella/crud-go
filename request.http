@@ -9,10 +9,10 @@ POST http://localhost:8080/createUser
 Content-Type: application/application/json
 
 {
-  "email":"fernelladev@gmail.com",
+  "email":"fernellateste@gmail.com",
   "password":"123456#D",
   "name":"Fernella",
-  "age": 25
+  "age": 26
 }
 
 ### 
